@@ -1,0 +1,129 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/*内容区域*/
+.main {
+  margin-bottom: 40px;
+}
+/* 轮播图、快速通道和新闻资讯 */
+/* 轮播图 */
+.banner-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #7191d4;
+}
+.banner-wrapper .slider-wrapper {
+}
+.banner-wrapper .swiper-slide a img {
+  width: 100%;
+}
+.banner-wrapper .swiper-pagination {
+  width: 100%;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  z-index: 20;
+}
+/* 非轮播图 */
+.banner-wrapper {
+
+  .no-slider-wrapper {
+    a {
+      display: block;
+      vertical-align: top;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+  /* 快速通道 */
+.express-lane-wrapper .express-lane {
+  height: 240px;
+  border: 2px solid #e5e5e5;
+  border-right: none;
+  border-bottom: none;
+}
+.express-lane .express-lane-item {
+  float: left;
+  box-sizing: border-box;
+  width: 33.33333333333%;
+  height: 120px;
+  border: 2px solid #e5e5e5;
+  border-left: none;
+  border-top: none;
+}
+.express-lane-item a {
+  float: left;
+  width: 100%;
+  padding-top: 7px;
+}
+.express-lane-item a span {
+  display: block;
+  text-align: center;
+}
+.express-lane-item a .top {
+  padding: 14px 0 5px;
+}
+.express-lane-item a .bottom {
+  padding: 14px 0;
+  font-size: 14px;
+  color: #666;
+}
+/* 新闻资讯 */
+.express-lane-wrapper .news {
+  /*height: 154px;*/
+}
+.express-lane-wrapper .news .news-item {
+  float: left;
+  /*height: 72px;*/
+  text-overflow: ellipsis;
+  margin-bottom: 26px;
+}
+.express-lane-wrapper .news-title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #3285ff;
+}
+.news .news-item .left {
+  float: left;
+  width: 40%;
+}
+.news .news-item .left img {
+  /*max-width: 288px;*/
+  width: 100%;
+}
+.news .news-item .right {
+  float: right;
+  width: 58%;
+}
+.news-item .right .news-title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2951a8;
+}
+.news-item .right .news-content {
+  font-size: 12px;
+  line-height: 14px;
+  color: #909090;
+}
+// 标准标题
+.base-header-wrapper {
+  padding: 0 10px 32px;
+  .title {
+    margin: 35px 0 19px 0;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2951a8;
+  }
+  .info {
+    font-size: 15px;
+    line-height: 28px;
+    color: #a4a4a5;
+  }
+}

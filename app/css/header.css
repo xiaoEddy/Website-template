@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.head {
+  width: 100%;
+  height: 110px;
+}
+
+.head .left, .head .right {
+  float: left;
+  font-size: 32px;
+  white-space: nowrap;
+  font-weight: bold;
+  margin: 38px 0 0 0;
+  line-height: 70px;
+}
+
+.head .left {
+  color: #1e50ae;
+}
+
+.head .right {
+  color: #cccccc;
+}
+
+.head .navbar-form {
+  margin-top: 36px;
+  margin-right: 0;
+}
+
+.header-nav {
+  width: 100%;
+  background: #2951a8;
+}
+
+/* 导航条 */
+.set-navbar-color {
+  border: none;
+  background: #fff;
+}
+
+.navbar-header .logo {
+  display: block;
+  padding: 0;
+  width: 225px;
+  height: 50px;
+  background: url("../img/logo.png") 0 0 no-repeat;
+  background-size: 225px 50px;
+}
+
+.collapse .nav li,
+.collapse .nav li a,
+.collapse .nav .dropdown,
+.collapse .nav .dropdown a,
+.collapse .nav li a:focus,
+.collapse .nav .active a:focus,
+.collapse .nav .open a:focus,
+.collapsing .nav li,
+.collapsing .nav li a,
+.collapsing .nav .dropdown,
+.collapsing .nav .dropdown a,
+.collapsing .nav li a:focus,
+.collapsing .nav .active a:focus,
+.collapsing .nav .open a:focus {
+  background: #2951a8;
+  color: #fff;
+}
+
+.collapse .nav li:hover,
+.collapse .nav li a:hover,
+.collapse .nav .active,
+.collapse .nav .active a,
+.collapse .nav .active a:hover,
+.collapse .nav .open a,
+.collapse .nav .open a:hover,
+.collapsing .nav li:hover,
+.collapsing .nav li a:hover,
+.collapsing .nav .active,
+.collapsing .nav .active a,
+.collapsing .nav .active a:hover,
+.collapsing .nav .open a,
+.collapsing .nav .open a:hover {
+  background: #fff;
+  color: #2951a8;
+}

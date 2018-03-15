@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*底部*/
+.foot-wrapper {
+  background: #191919;
+  padding-bottom: 40px;
+}
+
+/*底部导航*/
+.foot-nav {
+  text-align: center;
+  border-bottom: 2px solid #292929;
+}
+
+.foot-nav .foot-nav-item {
+  float: left;
+  font-size: 16px;
+  line-height: 16px;
+  color: #7e7e7e;
+  margin: 108px 0 78px;
+}
+
+/*其他信息*/
+.other-info {
+  padding-top: 70px;
+}
+
+.other-info .phone {
+  text-align: center;
+  border-right: 2px solid #292929;
+}
+
+.other-info .phone .phone-title {
+  font-size: 16px;
+  line-height: 30px;
+  color: #7e7e7e;
+}
+
+.other-info .phone .phone-number {
+  font-size: 36px;
+  line-height: 42px;
+  color: #1e50ae;
+  font-style: italic;
+}
+
+.other-info .other-phone {
+  text-align: center;
+}
+
+.other-info .other-phone p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #7e7e7e;
+}

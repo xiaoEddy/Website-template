@@ -1,0 +1,29 @@
+h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  /*padding-bottom: 200px;*/
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+/*.clearfix:after {*/
+/*content: '';*/
+/*display:block;*/
+/*clear: both;*/
+/*}*/

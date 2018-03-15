@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*精品课程*/
+.excellent-course .excellent-course-content .excellent-course-content-item {
+  margin-bottom: 20px;
+}
+
+.excellent-course .excellent-course-content .excellent-course-content-item img {
+  width: 100%;
+}
+
+.excellent-course .excellent-course-content .excellent-course-content-item .text-wrapper .title {
+  margin: 38px 0 28px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #383838;
+  font-weight: bold;
+}
+
+.excellent-course .excellent-course-content .excellent-course-content-item .text-wrapper .content-item {
+  font-size: 16px;
+  line-height: 28px;
+  color: #898989;
+}
+
+@media (max-width: 767px) {
+  .excellent-course-content-item .text-wrapper {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .excellent-course-content-item .text-wrapper {
+    text-align: center;
+  }
+}

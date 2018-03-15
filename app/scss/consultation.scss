@@ -1,0 +1,45 @@
+.news-list {
+  .list-item {
+    padding: 57px 0 50px;
+    border-bottom: 2px dotted #e0e0e0;
+    &:nth-last-of-type(1) {
+      border-bottom: none;
+    }
+    .date {
+      display: block;
+      width: 84px;
+      height: 84px;
+      background: #f2f2f2;
+      text-align: center;
+      //padding: 20px 0 25px 0;
+      .day {
+        font-size: 32px;
+        line-height: 50px;
+        color: #666;
+        margin-bottom: 0;
+      }
+      .year-month {
+        font-size: 16px;
+        line-height: 24px;
+        color: #666;
+      }
+    }
+    .message {
+      .title {
+        margin: 0 0 5px 0;
+        a {
+          display: block;
+          font-size: 18px;
+          line-height: 24px;
+          //font-weight: bold;
+          color: #333333;
+        }
+      }
+      .message-text {
+        font-size: 14px;
+        line-height: 24px;
+        color: #808080;
+      }
+    }
+  }
+}

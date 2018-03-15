@@ -1,0 +1,56 @@
+.about-wrapper {
+  .about-item {
+    margin-bottom: 10px;
+    .img-wrapper {
+      img {
+        width: 100%;
+      }
+    }
+    .about-info {
+      .about-title {
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 92px;
+
+        color: #1E50AE;
+      }
+      .about-content {
+        font-size: 14px;
+        line-height: 29px;
+        color: #8f8f8f;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about-wrapper {
+    .about-item {
+      .about-content {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #1E50AE;
+
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-wrapper {
+    .about-item {
+      .about-info {
+        .about-title {
+          line-height: 34px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+
+}

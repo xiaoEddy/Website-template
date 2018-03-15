@@ -1,0 +1,46 @@
+.news-list .list-item {
+  padding: 57px 0 50px;
+  border-bottom: 2px dotted #e0e0e0;
+}
+
+.news-list .list-item:nth-last-of-type(1) {
+  border-bottom: none;
+}
+
+.news-list .list-item .date {
+  display: block;
+  width: 84px;
+  height: 84px;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.news-list .list-item .date .day {
+  font-size: 32px;
+  line-height: 50px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.news-list .list-item .date .year-month {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666;
+}
+
+.news-list .list-item .message .title {
+  margin: 0 0 5px 0;
+}
+
+.news-list .list-item .message .title a {
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.news-list .list-item .message .message-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}

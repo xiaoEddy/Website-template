@@ -1,0 +1,255 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+/*行业动态*/
+/*介绍*/
+.dynamic {
+    /*background: #c9c9c9;*/
+}
+.dynamic-title {
+    color: #2d5bbd;
+}
+.dynamic .dynamic-massage {
+    /*background: palegreen;*/
+}
+.dynamic .dynamic-massage img {
+    width: 100%;
+}
+.dynamic .dynamic-massage .dynamic-massage-title {
+    margin: 20px 0;
+    color: #296cbf;
+}
+
+.dynamic .dynamic-massage .dynamic-massage-content {
+    line-height: 32px;
+    color: #9d918f;
+}
+/*新闻列表*/
+.dynamic-news {
+
+}
+.dynamic-news .news-item {
+    /*height: 100px;*/
+    box-sizing: initial;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ebebeb;
+    overflow: hidden;
+}
+.dynamic-news .news-item:nth-last-of-type(1) {
+    border-bottom: none;
+}
+.dynamic-news .news-item .news-left {
+    float: left;
+    width: 25%;
+    margin-top: 12px;
+}
+.dynamic-news .news-item .news-left a {
+    display: inline-block;
+    width: 100%;
+}
+.dynamic-news .news-item .news-left a img {
+    width: 100%;
+}
+.dynamic-news .news-item:nth-of-type(1) .news-left {
+    margin-top: 0;
+}
+.dynamic-news .news-item .news-right {
+    float: right;
+    width: 70%;
+    font-size: 14px;
+}
+.dynamic-news .news-item .news-right .news-title {
+    margin: 0 0 10px 0;
+}
+.dynamic-news .news-item .news-right .news-title a {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2f2f2f;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dynamic-news .news-item:nth-of-type(1) .news-right .news-title a {
+    margin-top: -4px;
+}
+.dynamic-news .news-item .news-right .news-content {
+    font-size: 14px;
+    color: #7c7c7c;
+    margin: 0;
+}
+/*行业动态轮播图*/
+
+/*宣传语*/
+.propaganda {
+    /*position: relative;*/
+    margin-top: 20px;
+    /*width: 100%;*/
+    height: 210px;
+    background: url("../img/banner-bg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.propaganda p {
+    text-align: center;
+}
+.propaganda p:nth-of-type(1) {
+    margin-top: 23px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+}
+.propaganda p:nth-of-type(2) {
+    margin-top: 22px;
+    font-size: 20px;
+    color: #f8cb59;
+}
+.propaganda p:nth-of-type(3) {
+    margin-top: 22px;
+    font-size: 28px;
+    color: #fff;
+}
+
+/*你需要了解的教育动态*/
+
+.educational-trends {
+
+}
+.educational-trends .educational-title {
+    font-size: 22px;
+    line-height: 26px;
+    color: #2951a8;
+}
+
+.educational-trends .left {
+
+}
+.educational-trends .left .tags {
+    width: 100%;
+}
+.educational-trends .left .tags .tag {
+    float: left;
+    font-size: 18px;
+    color: #666666;
+    padding: 15px 33px;
+    margin: 7px;
+    background: #f0f0f0;
+    cursor: default;
+}
+.educational-trends .left .tags .active {
+    color: #fff;
+    background: #2951a8;
+}
+.educational-trends .left .educational-item-wrapper {
+
+}
+
+.left .educational-item-wrapper {
+
+}
+.left .educational-item-wrapper .educational-item-list {
+    display: none;
+}
+.left .educational-item-wrapper .educational-item-list .educational-item {
+    box-sizing: initial;
+    padding-bottom: 40px;
+    border-bottom: 2px dashed #e0e0e0;
+}
+.left .educational-item-wrapper .educational-item-list .educational-item:nth-last-of-type(1) {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.educational-item-wrapper .educational-item-list .educational-item .date {
+    width: 13%;
+    float: left;
+    cursor: pointer;
+}
+.educational-item-list .educational-item .date .month {
+    margin-top: 28px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #4a4a4a;
+    font-family: arial;
+}
+.educational-item-list .educational-item .date .year {
+    font-size: 15px;
+    line-height: 15px;
+    color: #767676;
+    font-family: arial;
+}
+.educational-item-wrapper .educational-item-list .educational-item .content-wrapper {
+    width: 86%;
+    float: right;
+}
+.educational-item .content-wrapper .title a {
+    margin: 29px 0 10px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+}
+.educational-item .content-wrapper .content {
+    /*margin: 29px 0 10px;*/
+    font-size: 14px;
+    line-height: 24px;
+    color: #7c7c7c;
+}
+/*右侧图片信息*/
+.educational-trends .right {
+    /*height: 250px;*/
+}
+.educational-trends .right .image-message-item {
+    position: relative;
+    height: 363px;
+    margin-bottom: 60px;
+}
+.educational-trends .right .image-message-item:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+.educational-trends .right .image-message-item a {
+    width: 100%;
+    height: 363px;
+    position: absolute;
+    top: 0;
+    /*left: 0;*/
+    bottom: 0;
+    /*right: 0;*/
+}
+.educational-trends .right .image-message-item a img {
+    width: 100%;
+}
+.educational-trends .right .image-message-item a span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    background: rgba(0, 0, 0, .7);
+}
+.educational-trends .right .image-message-item .title-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.right .image-message-item .title-wrapper .title {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
